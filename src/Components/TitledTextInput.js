@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 const Input = styled.input`
+    className='caption';
     outline: none;
     border: 1px solid #E2E8F0;
     border-radius: 24px;
