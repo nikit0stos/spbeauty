@@ -7,7 +7,7 @@ function Addresses() {
 <div className="d-inline-flex flex-column">
 <div className="title m-4">Адреса заведений</div>
 <div className="d-inline-flex flex-column gap-4 m-4">
-<div className="mb-2"> <ListElement>Санкт-Петербург, Невский пр-т. 28</ListElement> </div>
+<ListElement>Санкт-Петербург, Невский пр-т. 28</ListElement> 
 <ListElement>Санкт-Петербург, Казанская ул,7</ListElement>
 </div>
 </div>
