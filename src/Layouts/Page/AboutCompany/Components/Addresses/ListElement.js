@@ -12,12 +12,12 @@ const Option = styled.div`
 
 function ListElement(props) {
     return (
-        <div className='d-inline-flex justify-content-between align-items-center'>
-            <Option>{props.children}</Option>
-            <IconOnlyButton icon={<EditIcon/>}/>
-            <IconOnlyButton icon={<RemoveIcon/>}/>
-        </div>
+    <div class="d-inline-flex">
+    <Option>{props.children}</Option>
+    <IconOnlyButton icon={<EditIcon/>}/>
+    <IconOnlyButton icon={<RemoveIcon/>}/>
+    </div>
     );
-}
-
-export default ListElement;
+    }
+    
+    export default ListElement
