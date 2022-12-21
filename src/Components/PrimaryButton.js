@@ -14,6 +14,7 @@ function PrimaryButton(props) {
         color: white;
         &:hover {
             background: #3B82F6;
+            opacity: 0.8;
         }
         &:active {
             background: #152842;
